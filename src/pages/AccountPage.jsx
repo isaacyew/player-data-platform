@@ -14,7 +14,7 @@ const AccountPage = () => {
     const [supportActions, setSupportActions] = useState([
         {
             id: 1,
-            timestamp: '2023-11-20 09:15:00',
+            timestamp: '2025-11-20 09:15:00',
             agentEmail: 'i.yew@playersupport.com',
             actionTaken: 'Reset Password',
             ticketId: '12345',
@@ -22,7 +22,7 @@ const AccountPage = () => {
         },
         {
             id: 2,
-            timestamp: '2023-11-18 14:30:00',
+            timestamp: '2025-11-18 14:30:00',
             agentEmail: 's.connor@playersupport.com',
             actionTaken: 'Grant Compensation → Type: "Coins", Amount: 5000',
             ticketId: '12298',
@@ -30,7 +30,7 @@ const AccountPage = () => {
         },
         {
             id: 4,
-            timestamp: '2023-11-12 16:45:00',
+            timestamp: '2025-11-12 16:45:00',
             agentEmail: 'i.yew@playersupport.com',
             actionTaken: 'Grant Compensation → Type: "Lives/Energy", Amount: 10',
             ticketId: '12089',
@@ -38,7 +38,7 @@ const AccountPage = () => {
         },
         {
             id: 6,
-            timestamp: '2023-11-08 13:22:00',
+            timestamp: '2025-11-08 13:22:00',
             agentEmail: 's.connor@playersupport.com',
             actionTaken: 'Grant Compensation → Type: "Boosters", Amount: 3',
             ticketId: '11854',
@@ -46,7 +46,7 @@ const AccountPage = () => {
         },
         {
             id: 8,
-            timestamp: '2023-11-02 15:10:00',
+            timestamp: '2025-11-02 15:10:00',
             agentEmail: 'i.yew@playersupport.com',
             actionTaken: 'Grant Compensation → Type: "Event Currency", Amount: 500',
             ticketId: '11650',
@@ -54,7 +54,7 @@ const AccountPage = () => {
         },
         {
             id: 9,
-            timestamp: '2023-10-28 11:45:00',
+            timestamp: '2025-10-28 11:45:00',
             agentEmail: 'j.smith@playersupport.com',
             actionTaken: 'Reset Password',
             ticketId: '11502',
@@ -104,7 +104,7 @@ const AccountPage = () => {
                             </div>
                             <div>
                                 <div className="text-xs text-slate-500 dark:text-slate-400 mb-1">Created</div>
-                                <div className="text-sm text-slate-900 dark:text-slate-200">Oct 12, 2023</div>
+                                <div className="text-sm text-slate-900 dark:text-slate-200">Oct 12, 2025</div>
                             </div>
                             <div>
                                 <div className="text-xs text-slate-500 dark:text-slate-400 mb-1">Last Login</div>

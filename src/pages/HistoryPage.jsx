@@ -19,7 +19,7 @@ const HistoryPage = () => {
         const month = 10 - Math.floor(i / 25);
         return {
             id: `TXN-${1001 + i}`,
-            date: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`,
+            date: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`,
             time: `${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}:${(22 + (i % 38)).toString().padStart(2, '0')}`,
             item: items[i % items.length],
             amount: amounts[i % amounts.length],

@@ -147,7 +147,7 @@ const CurrencyPage = () => {
             const month = 12 - Math.floor(i / 25);
             log.push({
                 id: i + 1,
-                timestamp: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
+                timestamp: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
                 item: action.item,
                 change: action.change,
                 reason: action.reason,
@@ -179,7 +179,7 @@ const CurrencyPage = () => {
             const month = 12 - Math.floor(i / 25);
             log.push({
                 id: i + 1,
-                timestamp: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
+                timestamp: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
                 item: action.item,
                 change: action.change,
                 reason: action.reason,
@@ -211,7 +211,7 @@ const CurrencyPage = () => {
             const month = 12 - Math.floor(i / 25);
             log.push({
                 id: i + 1,
-                timestamp: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
+                timestamp: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`,
                 item: action.item,
                 change: action.change,
                 reason: action.reason,

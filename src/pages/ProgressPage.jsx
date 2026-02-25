@@ -24,7 +24,7 @@ const ProgressPage = () => {
                 status: statuses[i % statuses.length],
                 stars: i % 5 === 3 ? 0 : Math.floor(Math.random() * 3) + 1,
                 attempts: Math.floor(Math.random() * 5) + 1,
-                date: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
+                date: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
             });
         }
         return history;
@@ -41,7 +41,7 @@ const ProgressPage = () => {
                 id: i + 1,
                 level: level,
                 coinsEarned: (Math.floor(Math.random() * 10) + 1) * 100,
-                date: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
+                date: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
             });
         }
         return history;
@@ -61,7 +61,7 @@ const ProgressPage = () => {
                 status: statuses[i % statuses.length],
                 stars: i % 5 === 3 ? 0 : Math.floor(Math.random() * 3) + 1,
                 attempts: Math.floor(Math.random() * 5) + 1,
-                date: `2023-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
+                date: `2025-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')} ${(14 - (i % 12)).toString().padStart(2, '0')}:${(30 + (i % 30)).toString().padStart(2, '0')}`
             });
         }
         return history;
