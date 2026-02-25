@@ -10,20 +10,20 @@ Resolving player enquiries often requires digging through scattered systems or r
 
 With PDP, teams can:
 
-- **Quickly identify players** — access account details, registration info, and status at a glance
-- **Track progress across games** — view levels, milestones, and title-specific achievements
-- **Review balances & inventory** — check soft/hard currency and owned items instantly
-- **Audit purchases & payments** — trace transaction history and payment events with ease
-- **Monitor ads & rewards** — confirm ad engagement and redemption activity
-- **Troubleshoot issues** — leverage technical logs to diagnose and resolve reported problems
+- **Quickly identify players**: access account details, registration info, and status at a glance
+- **Track progress across games**: view levels, milestones, and title-specific achievements
+- **Review balances & inventory**: check soft/hard currency and owned items instantly
+- **Audit purchases & payments**: trace transaction history and payment events with ease
+- **Monitor ads & rewards**: confirm ad engagement and redemption activity
+- **Troubleshoot issues**: leverage technical logs to diagnose and resolve reported problems
 
 ---
 
 ## Who Benefits?
 
-- **Player Support Agents** — resolve tickets faster with immediate access to relevant data
-- **Subject Matter Experts (SMEs)** — analyze player activity to provide deeper insights
-- **Team Leads** — oversee cases with confidence, ensuring consistency and accuracy in support
+- **Player Support Agents**: resolve tickets faster with immediate access to relevant data
+- **Subject Matter Experts (SMEs)**: analyze player activity to provide deeper insights
+- **Team Leads**: oversee cases with confidence, ensuring consistency and accuracy in support
 
 ---
 
@@ -54,7 +54,7 @@ Access the app at `http://localhost:5173`.
 
 ## Authentication
 
-PDP uses a simple login gate. No credentials are required — just use the demo account provided on the landing page to explore the platform.
+PDP uses a simple login gate. No credentials are required, just use the demo account provided on the landing page to explore the platform.
 
 ---
 
@@ -67,10 +67,10 @@ PDP uses a simple login gate. No credentials are required — just use the demo 
 
 ## UI Screenshots
 
-**Account Info — Light Mode**
+**Account Info: Light Mode**
 ![Account Info Light Mode](images/acc-light-mode.jpeg)
 
-**Account Info — Dark Mode**
+**Account Info: Dark Mode**
 ![Account Info Dark Mode](images/acc-dark-mode.jpeg)
 
 **Transaction History Tab**
