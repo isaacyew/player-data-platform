@@ -1,6 +1,6 @@
 # Player Data Platform (PDP)
 
-The **Player Data Platform (PDP)** is a streamlined internal web application built to empower player support teams. It consolidates player account information across multiple titles into a single, intuitive interface — enabling faster, smarter, and more effective support.
+The **Player Data Platform (PDP)** is a streamlined internal web application built to empower player support teams. It consolidates player account information across multiple titles into a single, intuitive interface, enabling faster, smarter, and more effective support.
 
 ---
 
@@ -62,3 +62,16 @@ PDP uses a simple login gate. No credentials are required — just use the demo 
 
 - All data shown is mock data, created to demonstrate the design and functionality of PDP.
 - This is a prototype tool, serving as a foundation for future iterations and enhancements.
+
+---
+
+## UI Screenshots
+
+**Account Info — Light Mode**
+![Account Info Light Mode](images/acc-light-mode.jpeg)
+
+**Account Info — Dark Mode**
+![Account Info Dark Mode](images/acc-dark-mode.jpeg)
+
+**Transaction History Tab**
+![Transaction History](images/txn-tab.png)
