@@ -1,38 +1,40 @@
 # Player Data Platform (PDP)
 
-A lightweight internal web tool built for player support teams to look up, inspect, and understand player account data across multiple games or user accounts — all in one place.
+The **Player Data Platform (PDP)** is a streamlined internal web application built to empower player support teams. It consolidates player account information across multiple titles into a single, intuitive interface — enabling faster, smarter, and more effective support.
 
 ---
 
-## What Is This?
+## Why PDP?
 
-**Player Data Platform** is an internal tool designed to help player support agents quickly access and review player information without needing direct database access or developer assistance.
+Resolving player enquiries often requires digging through scattered systems or relying on developer intervention. PDP eliminates that friction by giving support agents and team leads direct visibility into the data they need, without database queries or technical overhead.
 
-It provides a clean, unified interface to view:
+With PDP, teams can:
 
-- **Core Account Info** — player identity, registration details, and account status
-- **Game Progress** — level progress, milestones, and game-specific data per title
-- **Currency & Inventory** — soft/hard currency balances and in-game item ownership
-- **Purchase & Payment History** — transaction records and payment events
-- **Ads & Reward Info** — ad engagement and reward redemption history
-- **Technical Logs** — diagnostic data useful for troubleshooting player-reported issues
-
----
-
-## Who Is It For?
-
-This tool is intended for player support agents and team leads who need fast,  access to player data to resolve support tickets effectively.
+- **Quickly identify players** — access account details, registration info, and status at a glance
+- **Track progress across games** — view levels, milestones, and title-specific achievements
+- **Review balances & inventory** — check soft/hard currency and owned items instantly
+- **Audit purchases & payments** — trace transaction history and payment events with ease
+- **Monitor ads & rewards** — confirm ad engagement and redemption activity
+- **Troubleshoot issues** — leverage technical logs to diagnose and resolve reported problems
 
 ---
 
-## Tech Stack
+## Who Benefits?
 
-| Layer    | Technology                    |
-|----------|-------------------------------|
-| Framework| React 19 (Vite)               |
-| Styling  | Tailwind CSS v3               |
-| Routing  | React Router v7               |
-| Icons    | Lucide React                  |
+- **Player Support Agents** — resolve tickets faster with immediate access to relevant data
+- **Subject Matter Experts (SMEs)** — analyze player activity to provide deeper insights
+- **Team Leads** — oversee cases with confidence, ensuring consistency and accuracy in support
+
+---
+
+## Built With
+
+| Layer     | Technology      |
+|-----------|-----------------|
+| Framework | React 19 (Vite) |
+| Styling   | Tailwind CSS v3 |
+| Routing   | React Router v7 |
+| Icons     | Lucide React    |
 
 ---
 
@@ -46,17 +48,17 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
+Access the app at `http://localhost:5173`.
 
 ---
 
 ## Authentication
 
-The app uses a simple login gate.(no ID and password needed). Use the provided demo account visible on the landing page to test the PDP out
+PDP uses a simple login gate. No credentials are required — just use the demo account provided on the landing page to explore the platform.
 
 ---
 
-## Notes
+## Important Notes
 
-- All data displayed is fake or mockup to showcase the design of the PDP tool.
-- This tool is just a mockup tool serve as a starting reference. 
+- All data shown is mock data, created to demonstrate the design and functionality of PDP.
+- This is a prototype tool, serving as a foundation for future iterations and enhancements.
